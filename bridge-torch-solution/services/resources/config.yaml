@@ -1,0 +1,15 @@
+bridges: #map of bridge id and its length
+  0: 100
+  1: 200
+persons: #map of person id and the number of feet that person can walk per minute
+  0: 5
+  1: 2
+  2: 1
+  3: 20
+  4: 10
+  5: 4
+  6: 100
+  7: 25
+problem: #key is bridge id and value is the list of person ids
+  0: [0,1,2,3,4,5,7]
+  1: [0,2,3,5,6]
